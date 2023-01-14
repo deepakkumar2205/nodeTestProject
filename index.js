@@ -8,8 +8,8 @@ app.get("/movies", function (request, response) {
   response.send(data);
 });
 
-app.get("/movies", function (request, response) {
-  response.send(data);
+app.get("/", function (request, response) {
+  response.send('Welcome !!!');
 });
 
 app.get("/movies/:id", function (request, response) {
